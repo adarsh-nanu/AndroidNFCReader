@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tap D-PAS</string>
+    <string name="edit_message">Enter Amount</string>
+    <string name="button_send">Buy</string>
+    <string name="button_ecom">eCom</string>
+    <string name="button_tap">Tap</string>
+    <string name="show_ac_amount">0</string>
+    <string name="button5">1</string>
+    <string name="pin_message">Enter PIN</string>
+</resources>

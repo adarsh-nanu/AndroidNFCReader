@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText android:id="@+id/edit_message"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message"/>
+    <Button
+        android:id="@+id/buybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="1"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:onClick="input1"/>
+
+        <Button
+            android:text="2"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:onClick="input2" />
+
+        <Button
+            android:text="3"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button7"
+            android:onClick="input3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="4"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:onClick="input4"/>
+
+        <Button
+            android:text="5"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:onClick="input5" />
+
+        <Button
+            android:text="6"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            android:onClick="input6" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="7"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button11"
+            android:onClick="input7"/>
+
+        <Button
+            android:text="8"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button12"
+            android:onClick="input8" />
+
+        <Button
+            android:text="9"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button13"
+            android:onClick="input9" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="Clear"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button14"
+            android:onClick="resetAmount"/>
+
+        <Button
+            android:text="0"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button15"
+            android:onClick="input0" />
+
+        <Button
+            android:text="Back"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/button16"
+            android:onClick="clearLastDigit"/>
+    </LinearLayout>
+
+</LinearLayout>
